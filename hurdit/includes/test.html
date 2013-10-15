@@ -1,0 +1,31 @@
+<table>
+    <tr>
+        <td>
+            New Comment
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <form method='POST' action='submit_comment.php'>
+                <table class='submit_comment'>
+                    <tr>
+                        <td class='submit_comment_text'>
+                            New Comment:
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <textarea rows='3' cols='110' name='comment'/></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class='submit_comment_button'>
+                            <input type='hidden' name='storyID' value='$storyID'>
+                            <input type='submit' value='Submit' name='submit' />
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </td>
+    </tr>
+</table>
